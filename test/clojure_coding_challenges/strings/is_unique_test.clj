@@ -1,7 +1,7 @@
-(ns clojure-coding-challenges.is-unique-test
+(ns clojure-coding-challenges.strings.is-unique-test
   (:require [clojure.test :refer [deftest testing is]]
             [clojure.test.check.clojure-test :refer [defspec]]
-            [clojure-coding-challenges.is-unique :refer [is-unique?]]
+            [clojure-coding-challenges.strings.is-unique :refer [is-unique?]]
             [clojure.test.check.properties :as prop]
             [clojure.test.check.generators :as gen]))
 
