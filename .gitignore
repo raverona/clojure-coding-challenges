@@ -1,2 +1,4 @@
 .lein-repl-history
 .idea
+clojure-coding-challenges.iml
+.target/
