@@ -1,10 +1,6 @@
 # clojure-coding-challenges
 
-A Clojure library designed to ... well, that part is up to you.
-
-## Usage
-
-FIXME
+![CI](https://github.com/xico-labs/cracking-coding-interview-solutions-clj/workflows/CI/badge.svg?branch=master)
 
 ## License
 
