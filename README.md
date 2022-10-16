@@ -1,6 +1,13 @@
-# clojure-coding-challenges
+# Clojure Coding Challenges
 
-A Clojure library with functions that implement the coding challenges contained in the [CRACKING the CODING INTERVIEW](https://www.crackingthecodinginterview.com/) book.
+[![CircleCI](https://circleci.com/gh/raverona/clojure-coding-challenges.svg?style=shield)](https://app.circleci.com/pipelines/github/raverona/clojure-coding-challenges)
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=flat)](./LICENSE)
+
+A clojure and algorithms study.
+
+# Context
+
+`clojure-coding-challenges` is a Clojure library with functions that implement the coding challenges contained in the [CRACKING the CODING INTERVIEW](https://www.crackingthecodinginterview.com/) book.
 
 The ideia is to have at least two implementations: 
 
@@ -15,11 +22,11 @@ and at least two kinds of tests:
 
 The purpose of this repository is to study clojure, and alrorithms at the same time.
 
-## Usage
+# Usage
 
 TODO
 
-## License
+# License
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
