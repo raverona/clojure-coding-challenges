@@ -1,14 +1,25 @@
 # clojure-coding-challenges
 
-A Clojure library designed to ... well, that part is up to you.
+A Clojure library with functions that implement the coding challenges contained in the [CRACKING the CODING INTERVIEW](https://www.crackingthecodinginterview.com/) book.
+
+The ideia is to have at least two implementations: 
+
+1. The most idiomatic one;
+2. One without using any shortcuts;
+
+Calculating their run time and space complexity, [using big O notation](https://en.wikipedia.org/wiki/Big_O_notation), 
+and at least two kinds of tests: 
+
+1. One using a declative approach; 
+2. One using a generative approach;
+
+The purpose of this repository is to study clojure, and alrorithms at the same time.
 
 ## Usage
 
-FIXME
+TODO
 
 ## License
-
-Copyright © 2021 FIXME
 
 This program and the accompanying materials are made available under the
 terms of the Eclipse Public License 2.0 which is available at
