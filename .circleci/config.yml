@@ -29,6 +29,6 @@ jobs:
       - run: lein test
 
 workflows:
-  build_and_test:
+  sample:
     jobs:
       - build
