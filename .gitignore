@@ -3,3 +3,6 @@
 clojure-coding-challenges.iml
 target
 .nrepl-port
+.lein-failures
+.clj-kondo/.cache
+.lsp/.cache
