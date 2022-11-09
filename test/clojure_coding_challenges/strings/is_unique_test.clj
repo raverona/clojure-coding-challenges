@@ -40,7 +40,7 @@
   (gen/fmap (fn [xs] (apply str (set xs)))
             (gen/not-empty (gen/vector gen/char-ascii))))
 
-(defspec 'is-unique 1000
+(defspec is-unique 1000
   (prop/for-all [unique-string unique-string-generator]
                 (is-unique? unique-string)
                 (is-unique?* unique-string)))
@@ -49,7 +49,7 @@
   (gen/fmap (fn [xs] (apply str (concat xs xs)))
             (gen/not-empty (gen/vector gen/char-ascii))))
 
-(defspec 'is-not-unique 1000
+(defspec is-not-unique 1000
   (prop/for-all [non-unique-string non-unique-string-generator]
                 (not (is-unique? non-unique-string))
                 (not (is-unique?* non-unique-string))))
