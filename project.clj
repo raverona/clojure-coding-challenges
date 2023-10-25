@@ -8,6 +8,7 @@
 
   :profiles {:dev {:plugins      [[com.github.clojure-lsp/lein-clojure-lsp "1.3.14"]]
                    :dependencies [[nubank/matcher-combinators "3.8.3"]
+                                  [org.clojure/test.check "1.1.1"]
                                   [org.clojure/tools.namespace "1.4.4"]
                                   [prismatic/schema "1.4.1"]]
                    :source-paths ["config"]
