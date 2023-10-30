@@ -21,5 +21,5 @@
             "format-fix"      ["clojure-lsp" "format"]
             "clean-ns"        ["clojure-lsp" "clean-ns" "--dry"]
             "clean-ns-fix"    ["clojure-lsp" "clean-ns"]
-            "lint"            ["do" ["diagnostics"]  ["format"] ["clean-ns"]]
+            "lint"            ["do" ["diagnostics"] ["format"] ["clean-ns"]]
             "lint-fix"        ["do" ["format-fix"] ["clean-ns-fix"]]})

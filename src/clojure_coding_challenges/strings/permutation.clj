@@ -1,6 +1,5 @@
 (ns clojure-coding-challenges.strings.permutation
-  (:require
-   [schema.core :as s]))
+  (:require [schema.core :as s]))
 
 ; Check Permutation: Given two strings, write a method to decide if
 ; one is a permutation of the other.
