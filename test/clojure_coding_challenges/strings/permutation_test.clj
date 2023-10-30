@@ -1,12 +1,11 @@
 (ns clojure-coding-challenges.strings.permutation-test
-  (:require
-   [clojure-coding-challenges.strings.permutation :refer [permutation?
-                                                          permutation?*]]
-   [clojure.test :refer [are deftest testing use-fixtures]]
-   [clojure.test.check.clojure-test :refer [defspec]]
-   [clojure.test.check.generators :as gen]
-   [clojure.test.check.properties :as prop]
-   [schema.test :refer [validate-schemas]]))
+  (:require [clojure-coding-challenges.strings.permutation :refer [permutation?
+                                                                   permutation?*]]
+            [clojure.test :refer [are deftest testing use-fixtures]]
+            [clojure.test.check.clojure-test :refer [defspec]]
+            [clojure.test.check.generators :as gen]
+            [clojure.test.check.properties :as prop]
+            [schema.test :refer [validate-schemas]]))
 
 (use-fixtures :once validate-schemas)
 

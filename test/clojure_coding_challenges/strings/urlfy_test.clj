@@ -1,7 +1,6 @@
 (ns clojure-coding-challenges.strings.urlfy-test
-  (:require
-   [clojure.test :refer [are deftest testing use-fixtures]]
-   [schema.test :refer [validate-schemas]]))
+  (:require [clojure.test :refer [are deftest testing use-fixtures]]
+            [schema.test :refer [validate-schemas]]))
 
 (use-fixtures :once validate-schemas)
 

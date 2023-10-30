@@ -1,11 +1,10 @@
 (ns clojure-coding-challenges.strings.unique-test
-  (:require
-   [clojure-coding-challenges.strings.unique :refer [unique? unique?*]]
-   [clojure.test :refer [are deftest testing use-fixtures]]
-   [clojure.test.check.clojure-test :refer [defspec]]
-   [clojure.test.check.generators :as gen]
-   [clojure.test.check.properties :as prop]
-   [schema.test :refer [validate-schemas]]))
+  (:require [clojure-coding-challenges.strings.unique :refer [unique? unique?*]]
+            [clojure.test :refer [are deftest testing use-fixtures]]
+            [clojure.test.check.clojure-test :refer [defspec]]
+            [clojure.test.check.generators :as gen]
+            [clojure.test.check.properties :as prop]
+            [schema.test :refer [validate-schemas]]))
 
 (use-fixtures :once validate-schemas)
 
